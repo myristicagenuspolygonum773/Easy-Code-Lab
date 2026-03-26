@@ -43,8 +43,8 @@ export default function Header({ title, backHref, rightContent, showNav = true }
           )}
           <Link href='/' className='flex items-center gap-2'>
             <Image src='/logo.svg' alt='EasyCode logo' width={32} height={32} />
-            <span className='font-bold text-lg'>
-              <span className="text-green-500">Learn HTML,</span> <span className="text-blue-500">CSS and Javascript</span>
+            <span className='font-bold text-lg bg-linear-to-r from-(--color-gradient-start) to-(--color-gradient-end) bg-clip-text text-transparent'>
+              {title ?? 'EasyCodeLab'}
             </span>
           </Link>
         </div>

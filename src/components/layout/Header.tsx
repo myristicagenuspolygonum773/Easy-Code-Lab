@@ -30,7 +30,7 @@ export default function Header({ title, backHref, rightContent, showNav = true }
   }
 
   return (
-    <header className='sticky top-0 z-40 bg-card/70 backdrop-blur-md border-b border-border/50'>
+    <header className='sticky top-0 z-40 bg-gradient-to-r from-green-500 to-blue-500 backdrop-blur-md border-b border-border/50'>
       <div className='max-w-7xl mx-auto px-4 h-14 flex items-center justify-between'>
         <div className='flex items-center gap-3'>
           {backHref && (
@@ -43,8 +43,8 @@ export default function Header({ title, backHref, rightContent, showNav = true }
           )}
           <Link href='/' className='flex items-center gap-2'>
             <Image src='/logo.svg' alt='EasyCode logo' width={32} height={32} />
-            <span className='font-bold text-lg bg-linear-to-r from-(--color-gradient-start) to-(--color-gradient-end) bg-clip-text text-transparent'>
-              {title ?? 'EasyCode'}
+            <span className='font-bold text-lg'>
+              <span className="text-green-400">Learn HTML,</span> <span className="text-blue-400">CSS and Javascript</span>
             </span>
           </Link>
         </div>

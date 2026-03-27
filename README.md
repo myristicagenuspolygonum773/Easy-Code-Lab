@@ -65,6 +65,6 @@ src/
 └── types/                  # TypeScript type definitions
 ```
 
-## License
+## Build 
 
-MIT
+see 👉(build)[https://github.com/mwakidenis/Easy-Code-Lab/blob/main/README.md]

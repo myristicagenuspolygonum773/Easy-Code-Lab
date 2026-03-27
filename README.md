@@ -65,6 +65,5 @@ src/
 └── types/                  # TypeScript type definitions
 ```
 
-## Build 
-
-see 👉[build](https://github.com/mwakidenis/Easy-Code-Lab/blob/main/README.md)
+## AGENTS.md
+see 👉[build](https://github.com/mwakidenis/Easy-Code-Lab/blob/main/AGENTS.md)

